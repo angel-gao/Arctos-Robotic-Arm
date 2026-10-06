@@ -1,0 +1,6 @@
+PyQt6>=6.6.0
+pyserial>=3.5
+PyYAML>=6.0
+pygame>=2.5.0
+mediapipe>=0.10.14
+opencv-python>=4.8.0

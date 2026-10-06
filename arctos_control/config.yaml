@@ -1,0 +1,24 @@
+com_port: COM5
+baud_rate: 115200
+default_feedrate: 300
+gripper_open_pulse: 120
+gripper_close_pulse: 20
+gripper_duration: 0.1
+gripper_step: 5
+axis_speed_multipliers:
+  X: 1.8
+  Y: 1.0
+  Z: 2.5
+  A: 1.8
+  B: 2.5
+  C: 2.5
+auto_connect: false
+status_update_rate: 200
+camera_gesture:
+  neutral_zone: 0.35
+  wrist_rotation_threshold: 40.0
+  wrist_rotation_max: 60.0
+  wrist_flexion_threshold: 40.0
+  wrist_flexion_max: 70.0
+  finger_spread_deadzone: 0.15
+  smoothing_frames: 5
